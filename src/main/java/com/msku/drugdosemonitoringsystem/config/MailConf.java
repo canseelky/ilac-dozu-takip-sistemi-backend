@@ -10,7 +10,7 @@ import java.util.Properties;
 @Configuration
 public class MailConf {
 
-
+    @Bean
     public JavaMailSender mailConfiguration() {
         JavaMailSenderImpl mailSender = new JavaMailSenderImpl();
         mailSender.setUsername("ilacdozutakipsistemi.app@gmail.com");
